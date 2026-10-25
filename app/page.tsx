@@ -9,7 +9,7 @@ const commitments = [
 export default function Home() {
   return (
     <div className="flex flex-1 flex-col lg:flex-row">
-      <div className="relative h-[40vh] w-full shrink-0 overflow-hidden bg-zinc-200 lg:h-auto lg:min-h-dvh lg:w-1/2 dark:bg-zinc-900">
+      <div className="relative h-[40vh] w-full shrink-0 overflow-hidden lg:h-auto lg:min-h-dvh lg:w-1/2">
         <video
           className="absolute inset-0 size-full object-cover"
           src="https://res.cloudinary.com/dkme9rl68/video/upload/v1792890100/scene_8.mp4"
@@ -61,7 +61,7 @@ export default function Home() {
             ))}
           </ul>
 
-          <div className="mt-12 border-t border-black/[.08] pt-8 dark:border-white/10">
+          <div className="mt-12 border-t border-black/10 pt-8">
             <p className="mb-4 text-[15px] font-medium text-black">
               Interested? Leave your email.
             </p>
