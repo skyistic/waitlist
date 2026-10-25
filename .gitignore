@@ -24,6 +24,9 @@
 .DS_Store
 *.pem
 
+# local waitlist capture (swap for a real store before deploying)
+/.data
+
 # debug
 npm-debug.log*
 yarn-debug.log*
