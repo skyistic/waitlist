@@ -27,6 +27,9 @@
 # local waitlist capture (swap for a real store before deploying)
 /.data
 
+# video is served from Cloudinary, never commit it
+*.mp4
+
 # debug
 npm-debug.log*
 yarn-debug.log*

@@ -12,7 +12,7 @@ export default function Home() {
       <div className="relative h-[40vh] w-full shrink-0 overflow-hidden bg-zinc-200 lg:h-auto lg:min-h-dvh lg:w-1/2 dark:bg-zinc-900">
         <video
           className="absolute inset-0 size-full object-cover"
-          src="/scene.mp4"
+          src="https://res.cloudinary.com/dkme9rl68/video/upload/v1792890100/scene_8.mp4"
           autoPlay
           loop
           muted
