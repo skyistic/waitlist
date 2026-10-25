@@ -51,12 +51,12 @@ export default function WaitlistForm() {
           placeholder="you@studio.com"
           aria-invalid={state.status === "error"}
           aria-describedby={state.status === "error" ? "email-error" : undefined}
-          className="min-w-0 flex-1 bg-transparent text-[15px] text-zinc-900 outline-none placeholder:text-zinc-400 dark:text-zinc-50 dark:placeholder:text-zinc-500"
+          className="min-w-0 flex-1 bg-transparent text-[15px] text-zinc-900 outline-none placeholder:text-zinc-400"
         />
         <button
           type="submit"
           disabled={pending}
-          className="shrink-0 rounded-full bg-zinc-900 px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-zinc-700 disabled:opacity-60 dark:bg-zinc-50 dark:text-zinc-900 dark:hover:bg-zinc-200"
+          className="shrink-0 rounded-full bg-zinc-900 px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-zinc-700 disabled:opacity-60"
         >
           {pending ? "Joining…" : "Join waitlist"}
         </button>
